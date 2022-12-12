@@ -1,9 +1,7 @@
 fn main() {
-    let number = -100002000;
+    let condition = false;
 
-    if number > 5 {
-        println!("Condition is fale");
-    } else {
-        println!("Condition is true");
-    }
+    let number = if condition {5} else {6};
+
+    println!("The value of number is: {number}");
 }
